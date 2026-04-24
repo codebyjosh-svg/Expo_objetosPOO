@@ -4,6 +4,7 @@ import poo.clases.persona;
 import poo.clases.Animal;
 import poo.clases.Perro;
 import poo.clases.Gato;
+import poo.clases.Cuenta;
 
 public class Main {
     public static void main(String[] args){
@@ -19,6 +20,11 @@ public class Main {
         
         a1.hacerSonido();
         a2.hacerSonido();
+        
+        // Encapsulacion
+        Cuenta c = new Cuenta();
+        c.setSaldo(150);
+        System.out.println("Saldo: "+ c.getSaldo());
     }
     //prueba git
 }
