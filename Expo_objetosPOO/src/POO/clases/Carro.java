@@ -1,13 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package poo.clases;
 
-/**
- *
- * @author Darwin
- */
 public class Carro {
+    Motor motor;
     
+    public Carro(Motor motor){
+        this.motor = motor;
+    }
+    
+    public void mostrarMotor(){
+        System.out.println("MOtor:" + motor.tipo);
+    }
 }
