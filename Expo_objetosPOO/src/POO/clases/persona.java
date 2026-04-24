@@ -1,13 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package POO.clases;
+package poo.clases;
 
-/**
- *
- * @author Darwin
- */
 public class persona {
+    public String nombre;
     
+    public void saludar(){
+        System.out.println("HOla, soy"+ nombre);
+    }
 }
