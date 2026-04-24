@@ -1,7 +1,7 @@
 package poo.clases;
 
 public class Animal {
-    public class Animal{
-        Systme.out.println("Sonido de animal");
+    public void hacerSonido(){
+        System.out.println("Sonido de animal");
     }
 }

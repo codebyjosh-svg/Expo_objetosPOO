@@ -1,6 +1,9 @@
 package Principal.main;
 
 import poo.clases.persona;
+import poo.clases.Animal;
+import poo.clases.Perro;
+import poo.clases.Gato;
 
 public class Main {
     public static void main(String[] args){
@@ -9,6 +12,13 @@ public class Main {
         persona p = new persona();
         p.nombre = "Joshua";
         p.saludar();
+        
+        //Herencia y polimorfismo
+        Animal a1 = new Perro();
+        Animal a2 = new Gato();
+        
+        a1.hacerSonido();
+        a2.hacerSonido();
     }
     //prueba git
 }
